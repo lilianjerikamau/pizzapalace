@@ -421,10 +421,8 @@ $(function () {
       grandtotal
     );
     console.log(newOrder); // test func
-
     //create a new object
     // let myOrder = JSON.stringify(JSON.parse(newOrder));
-
     //Write to the order
     $(".summary").slideDown(2000);
     $(".new-order").hide();
@@ -432,7 +430,6 @@ $(function () {
     $("#list").slideDown();
     $(".deliver").show(1000);
     $(".delivernot").show(1000);
-
     $("#list").text(" ");
     $("#list")
       .append(
@@ -456,7 +453,6 @@ $(function () {
       )
       .css("font-family", "system-ui")
       .css("font-size", "24px");
-
     //Deliver
     $(".deliver").click(function () {
       $(".summary").slideUp();
@@ -468,7 +464,6 @@ $(function () {
       $(".pickup").hide(1000);
       $(".cdata-overlay").slideDown();
     });
-
     grandtotal = totalPrice + deliveryPrice;
     pickupAmount = grandtotal - deliveryPrice;
     $(".main-delivery").click(function (e) {
