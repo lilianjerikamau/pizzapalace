@@ -36,9 +36,8 @@ $(function () {
       toppings.push($(this).val());
     });
     // console.log(toppings);
-
     let number = $("#number").val();
-    console.log(size);
+    // console.log(size);
 
     //Function order
     let order = (f, s, c, t, n, d, g, total) => {
