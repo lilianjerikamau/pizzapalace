@@ -32,12 +32,10 @@ $(function () {
     let size = $("#size option:selected").val();
     let crust = $("#crust option:selected").val();
     let toppings = [];
-
     $.each($(".selectpicker option:selected"), function () {
       toppings.push($(this).val());
     });
-
-    console.log(toppings);
+    // console.log(toppings);
 
     let number = $("#number").val();
     console.log(size);
