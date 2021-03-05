@@ -38,12 +38,10 @@ $(function () {
     // console.log(toppings);
     let number = $("#number").val();
     // console.log(size);
-
     //Function order
     let order = (f, s, c, t, n, d, g, total) => {
       return { f, s, c, t, n, d, g, total };
     };
-
     //check price
     let price, totalPrice;
     switch (flavour) {
@@ -410,7 +408,6 @@ $(function () {
     }
     // console.log((toppingPrice + totalPrice)); //can be stored in a total price variable.
     totalPrice = toppingPrice + totalPrice;
-
     grandtotal = totalPrice + deliveryPrice;
     //Execute order function
     let newOrder = order(
