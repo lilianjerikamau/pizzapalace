@@ -94,10 +94,10 @@ body {
 #main-home #banner-slider .owl-carousel .owl-dots button.active span {
   background-color: #ff004d;
 }
-/* #menu img {
+#menu img {
   width: 300px;
   height: 300px;
-} */
+}
 #menu {
   background: url("../img/pizza-2589575.jpg");
 }
