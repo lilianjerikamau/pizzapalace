@@ -490,7 +490,6 @@ $(function () {
         $("#sum-order").hide();
         $(".pickup").show();
       });
-
       $("#list").text(" ");
       $("#list")
         .append(
@@ -523,12 +522,11 @@ $(function () {
             grandtotal +
             "<br><br>"
         )
-
         .css("font-family", "system-ui")
         .css("font-size", "24px");
       // console.log(deliveryPrice);
     });
-    console.log(grandtotal);
+    // console.log(grandtotal);
 
     $(".pickup").click(function (e) {
       $(".summary").slideUp();
