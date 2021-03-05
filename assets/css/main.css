@@ -1,0 +1,152 @@
+/* stylesheet */
+/* Custom classes */
+.bg-pink {
+  background-color: #ff004d;
+}
+.color-pink {
+  color: #ff004d;
+}
+.color-teal {
+  color: teal;
+}
+.btn-teal {
+  background-color: teal;
+  padding: 5px 20px;
+  color: #ffff;
+}
+.btn-teal:hover {
+  color: #ffff;
+  box-shadow: 0px 0px 0px 4px rgba(0, 119, 255, 0.5),
+    0px 0px 0px 7px rgba(255, 0, 70, 0.3);
+}
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+#main-home {
+  width: 100%;
+  min-height: 650px;
+  background-color: teal;
+  background-size: 100% 100%;
+}
+.btn-theme {
+  background-color: #ff004d;
+  padding: 5px 20px;
+  color: #ffff;
+}
+.btn-theme:hover {
+  color: #ffff;
+  box-shadow: 0px 0px 0px 4px rgba(255, 0, 70, 0.5),
+    0px 0px 0px 7px rgba(255, 0, 70, 0.3);
+}
+#main-home .header-top .item a {
+  color: #000000;
+}
+#main-home .header-top .item a:hover {
+  color: #ff004d;
+}
+#main-home .navbar .nav-item {
+  padding: 0 15px;
+}
+#main-home .navbar .nav-item .nav-link {
+  color: #000000;
+}
+#main-home .navbar .nav-item .nav-link:hover {
+  color: #ff004d;
+}
+#main-home .navbar .cart-icon {
+  color: #ffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#main-home #banner-slider .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#main-home #banner-slider .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#main-home #banner-slider .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#main-home #banner-slider .owl-carousel .owl-nav button span {
+  font-size: 56px;
+  padding: 0.1rem;
+  color: #ff004d;
+}
+#main-home #banner-slider .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -5rem;
+}
+#main-home #banner-slider .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -5rem;
+}
+#main-home #banner-slider .owl-carousel .owl-dots {
+  position: absolute;
+  bottom: -6rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#main-home #banner-slider .owl-carousel .owl-dots button span {
+  background-color: #ffff;
+  padding: 6px !important;
+}
+#main-home #banner-slider .owl-carousel .owl-dots button.active span {
+  background-color: #ff004d;
+}
+#menu img {
+  width: 300px;
+  height: 300px;
+}
+#menu {
+  background: url("../img/pizza-2589575.jpg");
+}
+#order {
+  background: teal;
+}
+#checkout {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#sum-order input {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#contacts {
+  display: inline;
+}
+.social {
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#sum-order h2 {
+  display: none;
+}
+#sum-order form {
+  display: none;
+}
+#list {
+  color: teal;
+}
+
+/*Rwsponsive Style */
+/*Mobile Phones Screen*/
+@media only screen and (max-width: 580px) {
+  #main-home .header-top {
+    flex-direction: column;
+  }
+  #main-home {
+    padding: 20px 0;
+  }
+  #main-home #banner-slider {
+    width: 95%;
+    margin: auto;
+  }
+  #main-home #banner-slider .owl-carousel .owl-nav button {
+    display: none;
+  }
+  #main-home #banner-slider .owl-carousel .owl-dots {
+    bottom: -1rem;
+  }
+}
