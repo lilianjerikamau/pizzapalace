@@ -9,7 +9,7 @@ $(document).ready(function () {
   });
 });
 $(".deliver").click(function () {
-  $("#sum-order form ").show();
+  $("#sum-order form").show();
 });
 $(function () {
   $(".summary").hide();
