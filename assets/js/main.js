@@ -20,7 +20,7 @@ $(function () {
     let deliveryPrice = 500;
 
     $(".order-summary").show();
-     $(".pickup").show();
+    $(".pickup").show();
 
     if ($("option:selected").text() == "") {
       e.preventDefault();
@@ -533,7 +533,6 @@ $(function () {
       $(".deliver").hide();
       $(".pickup").hide();
       $(".cdata-overlay").hide();
-
       $(".summary").show();
       $(".cdata-overlay").hide();
       $("#list").slideDown();
@@ -543,7 +542,6 @@ $(function () {
         $("#sum-order").hide();
         $(".pickup").show();
       });
-
       $("#list").text(" ");
       $("#list")
         .append(
@@ -570,7 +568,6 @@ $(function () {
             pickupAmount +
             "<br><br>"
         )
-
         .css("font-family", "system-ui")
         .css("font-size", "24px");
     });
