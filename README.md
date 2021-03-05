@@ -1,6 +1,6 @@
-# ${1:DELANI STUDIO}
+# ${1:PIZZA PALACE}
 
-This project is a static website for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios.
+Pizza Palace is a web application that allows users to order any amount of pizza according to the flavor,toppings and crust they want.
 
 ## Author
 
@@ -9,7 +9,7 @@ Github link https://github.com/lilianjerikamau
 
 ## Installation
 
-clone project from: https://lilianjerikamau.github.io/akonnames/
+clone project from: https://github.com/lilianjerikamau/pizzapalace.git
 
 ## Setup Instruction
 
@@ -44,11 +44,11 @@ TODO: Write credits
 
 ## Known bugs
 
-mail chimp API is not functional at the moment
+No known bugs at the moment
 
 ## Demo
 
-Here is a working live demo : https://lilianjerikamau.github.io/akonnames/
+Here is a working live demo : https://lilianjerikamau.github.io/pizzapalace/
 
 ## Contact
 
