@@ -27,7 +27,6 @@ $(function () {
       e.stopImmediatePropagation();
       alert("select pizza all pizza options");
     }
-
     // let options = ["tomato", "onions", "mushroom", "greenpepper", "olives", "pineapple", "sweetcorn", "macon", "mince", "beef", "chicken"];
     let flavour = $(".flavour option:selected").val();
     let size = $("#size option:selected").val();
