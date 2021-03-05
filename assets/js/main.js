@@ -17,8 +17,7 @@ $(function () {
   $(".order-summary").hide();
   //Get inputs
   $("#checkout").click(function () {
-    let deliveryPrice = 500;
-
+    let deliveryPrice = 500; 
     $(".order-summary").show();
     $(".pickup").show();
 
@@ -420,6 +419,7 @@ $(function () {
       totalPrice,
       grandtotal
     );
+     $("#order form").trigger("reset");
     console.log(newOrder); // test func
     //create a new object
     // let myOrder = JSON.stringify(JSON.parse(newOrder));
@@ -567,9 +567,11 @@ $(function () {
             "We have recieved your order!Please pick it up at Pizza Palace Nairobi. Prepare sh. " +
             pickupAmount +
             "<br><br>"
+            
         )
         .css("font-family", "system-ui")
         .css("font-size", "24px");
+      
     });
   });
 });
